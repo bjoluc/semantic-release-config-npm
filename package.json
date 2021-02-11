@@ -1,0 +1,87 @@
+{
+  "name": "@bjoluc/semantic-release-config-npm",
+  "version": "1.0.0",
+  "description": "semantic-release config for my NPM projects",
+  "main": ".releaserc.json",
+  "files": [
+    ".releaserc.json"
+  ],
+  "scripts": {
+    "test": "prettier --check .",
+    "commit": "git-cz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bjoluc/semantic-release-config-npm.git"
+  },
+  "keywords": [
+    "semantic-release-config",
+    "npm",
+    "github"
+  ],
+  "author": "bjoluc <mail@bjoluc.de>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bjoluc/semantic-release-config-npm/issues"
+  },
+  "homepage": "https://github.com/bjoluc/semantic-release-config-npm#readme",
+  "dependencies": {
+    "@semantic-release/changelog": "^5.0.1",
+    "@semantic-release/git": "^9.0.0"
+  },
+  "peerDependencies": {
+    "semantic-release": ">=17.3.8"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-conventional": "^11.0.0",
+    "commitizen": "^4.2.3",
+    "conventional-changelog-conventionalcommits": "^4.5.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^5.0.9",
+    "lint-staged": "^10.5.4",
+    "prettier": "^2.2.1"
+  },
+  "prettier": {
+    "trailingComma": "es5",
+    "tabWidth": 2,
+    "printWidth": 100
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "lint-staged": {
+    ".releaserc.json": [
+      "prettier --write"
+    ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ],
+    "rules": {
+      "subject-case": [
+        2,
+        "always",
+        [
+          "sentence-case"
+        ]
+      ],
+      "scope-case": [
+        0,
+        "never",
+        [
+          "lower-case"
+        ]
+      ]
+    }
+  }
+}
