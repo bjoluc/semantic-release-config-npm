@@ -32,11 +32,6 @@
         "failComment": false
       }
     ],
-    [
-      "@semantic-release/git",
-      {
-        "message": "chore(Release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
-      }
-    ]
+    "@semantic-release/git"
   ]
 }
