@@ -26,37 +26,22 @@
   },
   "homepage": "https://github.com/bjoluc/semantic-release-config-npm#readme",
   "dependencies": {
-    "@semantic-release/changelog": "^5.0.1",
-    "@semantic-release/git": "^9.0.0",
-    "conventional-changelog-conventionalcommits": "^4.5.0"
-  },
-  "peerDependencies": {
-    "semantic-release": ">=17.3.8"
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/git": "^10.0.1",
+    "conventional-changelog-conventionalcommits": "^4.6.1",
+    "semantic-release": "^18.0.1"
   },
   "devDependencies": {
-    "@commitlint/cli": "^11.0.0",
-    "@commitlint/config-conventional": "^11.0.0",
-    "commitizen": "^4.2.3",
+    "@commitlint/cli": "^15.0.0",
+    "@commitlint/config-conventional": "^15.0.0",
+    "commitizen": "^4.2.4",
     "cz-conventional-changelog": "^3.3.0",
-    "husky": "^5.0.9",
-    "lint-staged": "^10.5.4",
-    "prettier": "^2.2.1"
+    "prettier": "^2.5.1"
   },
   "prettier": {
     "trailingComma": "es5",
     "tabWidth": 2,
     "printWidth": 100
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged",
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
-  },
-  "lint-staged": {
-    ".releaserc.json": [
-      "prettier --write"
-    ]
   },
   "config": {
     "commitizen": {
