@@ -1,6 +1,6 @@
 {
   "name": "@bjoluc/semantic-release-config-npm",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "semantic-release config for my NPM projects",
   "main": ".releaserc.json",
   "files": [

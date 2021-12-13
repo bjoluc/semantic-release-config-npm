@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.0](https://github.com/bjoluc/semantic-release-config-npm/compare/v1.0.1...v2.0.0) (2021-12-13)
+
+
+### ⚠ BREAKING CHANGES
+
+* **dependencies:** The semantic-release package is no longer a peer dependency now, but a dependency,
+and the minimum supported node version is now 14
+
+### Miscellaneous Chores
+
+* **dependencies:** update dependencies ([44cd988](https://github.com/bjoluc/semantic-release-config-npm/commit/44cd988b4f623823a62a46adb6e5ad47aca2fb08))
+
 ### [1.0.1](https://github.com/bjoluc/semantic-release-config-npm/compare/v1.0.0...v1.0.1) (2021-02-12)
 
 
