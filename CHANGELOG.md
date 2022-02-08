@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### [2.0.1](https://github.com/bjoluc/semantic-release-config-npm/compare/v2.0.0...v2.0.1) (2022-02-08)
+
+
+### Bug Fixes
+
+* **dependencies:** update dependencies to fix security vulnerabilities ([5208457](https://github.com/bjoluc/semantic-release-config-npm/commit/520845709bda46126f1c00f614756b4609421b3f))
+
 ## [2.0.0](https://github.com/bjoluc/semantic-release-config-npm/compare/v1.0.1...v2.0.0) (2021-12-13)
 
 
