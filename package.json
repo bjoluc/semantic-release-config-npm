@@ -28,12 +28,12 @@
   "dependencies": {
     "@semantic-release/changelog": "^6.0.1",
     "@semantic-release/git": "^10.0.1",
-    "conventional-changelog-conventionalcommits": "^4.6.1",
-    "semantic-release": "^18.0.1"
+    "conventional-changelog-conventionalcommits": "^4.6.3",
+    "semantic-release": "^19.0.2"
   },
   "devDependencies": {
-    "@commitlint/cli": "^15.0.0",
-    "@commitlint/config-conventional": "^15.0.0",
+    "@commitlint/cli": "^16.1.0",
+    "@commitlint/config-conventional": "^16.0.0",
     "commitizen": "^4.2.4",
     "cz-conventional-changelog": "^3.3.0",
     "prettier": "^2.5.1"
