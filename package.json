@@ -7,8 +7,7 @@
     ".releaserc.json"
   ],
   "scripts": {
-    "test": "prettier --check .",
-    "commit": "git-cz"
+    "test": "prettier --check ."
   },
   "repository": {
     "type": "git",
@@ -28,25 +27,17 @@
   "dependencies": {
     "@semantic-release/changelog": "^6.0.1",
     "@semantic-release/git": "^10.0.1",
-    "conventional-changelog-conventionalcommits": "^4.6.3",
-    "semantic-release": "^19.0.2"
+    "conventional-changelog-conventionalcommits": "^5.0.0",
+    "semantic-release": "^19.0.3"
   },
   "devDependencies": {
-    "@commitlint/cli": "^16.1.0",
-    "@commitlint/config-conventional": "^16.0.0",
-    "commitizen": "^4.2.4",
-    "cz-conventional-changelog": "^3.3.0",
-    "prettier": "^2.5.1"
+    "@commitlint/config-conventional": "^17.0.3",
+    "prettier": "^2.7.1"
   },
   "prettier": {
     "trailingComma": "es5",
     "tabWidth": 2,
     "printWidth": 100
-  },
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
-    }
   },
   "commitlint": {
     "extends": [
