@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.0.0](https://github.com/bjoluc/semantic-release-config-npm/compare/v2.0.1...v3.0.0) (2022-07-01)
+
+
+### ⚠ BREAKING CHANGES
+
+* **Dependencies:** Always use H2 version headings in changelogs, drop support for Node v15
+
+### Miscellaneous Chores
+
+* **Dependencies:** Use semantic-release v19 and conventional-changelog-conventionalcommits v5 ([cc242a8](https://github.com/bjoluc/semantic-release-config-npm/commit/cc242a80efb19ed9d8b935d7fa18a4c6ee8658a3))
+
 ### [2.0.1](https://github.com/bjoluc/semantic-release-config-npm/compare/v2.0.0...v2.0.1) (2022-02-08)
 
 
