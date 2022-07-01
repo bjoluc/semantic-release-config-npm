@@ -31,33 +31,11 @@
     "semantic-release": "^19.0.3"
   },
   "devDependencies": {
-    "@commitlint/config-conventional": "^17.0.3",
     "prettier": "^2.7.1"
   },
   "prettier": {
     "trailingComma": "es5",
     "tabWidth": 2,
     "printWidth": 100
-  },
-  "commitlint": {
-    "extends": [
-      "@commitlint/config-conventional"
-    ],
-    "rules": {
-      "subject-case": [
-        2,
-        "always",
-        [
-          "sentence-case"
-        ]
-      ],
-      "scope-case": [
-        0,
-        "never",
-        [
-          "lower-case"
-        ]
-      ]
-    }
   }
 }
