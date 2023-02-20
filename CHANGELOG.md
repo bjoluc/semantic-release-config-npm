@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.0.0](https://github.com/bjoluc/semantic-release-config-npm/compare/v3.0.0...v4.0.0) (2023-02-20)
+
+
+### ⚠ BREAKING CHANGES
+
+* **Dependencies:** Require Node.js >= v18
+
+### Miscellaneous Chores
+
+* **Dependencies:** Update `semantic-release` to v20 ([d926c35](https://github.com/bjoluc/semantic-release-config-npm/commit/d926c356843336b5cf109aee3f67a195d644b62e))
+
 ## [3.0.0](https://github.com/bjoluc/semantic-release-config-npm/compare/v2.0.1...v3.0.0) (2022-07-01)
 
 
