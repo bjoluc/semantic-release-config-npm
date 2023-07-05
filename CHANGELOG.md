@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.0.0](https://github.com/bjoluc/semantic-release-config-npm/compare/v4.0.0...v5.0.0) (2023-07-05)
+
+
+### ⚠ BREAKING CHANGES
+
+* **Dependencies:** Due to updating `semantic-release` to v21,`NPM_USERNAME` and `NPM_PASSWORD` are no longer supported. But you are using `NPM_TOKEN` anyway, aren't you?
+
+### Miscellaneous Chores
+
+* **Dependencies:** Update dependencies ([3840fe0](https://github.com/bjoluc/semantic-release-config-npm/commit/3840fe04171af1db67382821b7500b04f05b1a4c))
+
 ## [4.0.0](https://github.com/bjoluc/semantic-release-config-npm/compare/v3.0.0...v4.0.0) (2023-02-20)
 
 
