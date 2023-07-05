@@ -25,13 +25,13 @@
   },
   "homepage": "https://github.com/bjoluc/semantic-release-config-npm#readme",
   "dependencies": {
-    "@semantic-release/changelog": "^6.0.2",
+    "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
-    "conventional-changelog-conventionalcommits": "^5.0.0",
-    "semantic-release": "^20.1.0"
+    "conventional-changelog-conventionalcommits": "^6.1.0",
+    "semantic-release": "^21.0.7"
   },
   "devDependencies": {
-    "prettier": "^2.8.4"
+    "prettier": "^3.0.0"
   },
   "prettier": {
     "trailingComma": "es5",
